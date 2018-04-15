@@ -124,7 +124,7 @@ footer{
   header nav,
   header nav li,
   #showcase2 h1,
-  #boxes .box,{
+  #boxes .box{
     float:none;
     text-align:center;
     width:100%;
