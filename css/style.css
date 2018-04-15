@@ -155,5 +155,12 @@ footer{
 
 /*downloads etc*/
 #downloadss .downs{
-  text-align:center;
+  text-align:center center;
 }
+@media(max-width:  768px){
+  #downloadss .downs img{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+  }
