@@ -1,0 +1,106 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#ffffff;
+}
+
+/*Global */
+  .container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+  }
+  header ul{
+    margin:0;
+    padding:0;
+  }
+  /*Header */
+  header{
+    background:#42663d;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#998877 3px solid;
+  }
+
+  header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+
+header li{
+  float:left;
+  display:inline;
+  padding:0 20px 0 20px;
+}
+header #branding{
+  float:left;
+}
+header #branding h1{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-top:10px;
+}
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/*Showcase*/
+#showcase{
+  min-height:400px;
+  background:url('../img/showcase.jpg') no-repeat 250px;
+  text-align:center;
+  color:#ffffff;
+}
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+#showcase p{
+  font-size:20px;
+}
+#showcase2{
+  padding:15px;
+  color:#ffffff;
+  background:#42663d;
+  border-top: #998877 3px solid;
+  border-bottom: #998877 3px solid;
+}
+#showcase2 h1{
+  float:left;
+}
+#showcase2 p{
+  font-size:20px;
+  text-align:center;
+}
+
+
+/*boxes*/
+#boxes{
+  margin-top:20px;
+}
+#boxes .box{
+  float:left;
+  font-size:20px;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+#boxes .box img{
+  width:200px;
+  height:120px;
+}
+footer{
+  padding:20px
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#42663d;
+  text-align:center;
+}
