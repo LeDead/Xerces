@@ -1,53 +1,159 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="We Get Shit Done">
-    <meta name="keywords" content="Efficient, Dark, Amazing">
-    <meta name="author" content="LeDead">
-    <title>Xerces Corporation | About</title>
-    <link rel="stylesheet" href="./css/style.css">
-    </head>
-    <body>
-      <header>
-        <div class="container">
-          <div id="branding">
-            <h1>Xerces Corporation</span></h1>
-          </div>
-          <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="downloads.html">Downloads</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#ffffff;
+}
+
+/*Global */
+  .container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+  }
+  header ul{
+    margin:0;
+    padding:0;
+  }
+  /*Header */
+  header{
+    background:#42663d;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#998877 3px solid;
+  }
+
+  header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+
+header li{
+  float:left;
+  display:inline;
+  padding:0 20px 0 20px;
+}
+header #branding{
+  float:left;
+}
+header #branding h1{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-top:10px;
+}
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/*Showcase*/
+#showcase{
+  min-height:400px;
+  background:url('../img/showcase.jpg') no-repeat 250px;
+  background-position: center center;
+  text-align:center;
+  color:#ffffff;
+}
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+#showcase p{
+  font-size:20px;
+}
+#showcase2{
+  padding:15px;
+  color:#ffffff;
+  background:#42663d;
+  border-top: #998877 3px solid;
+  border-bottom: #998877 3px solid;
+}
+#showcase2 h1{
+  float:left;
+
+}
+#showcase2 p{
+  font-size:20px;
+  text-align: center;
+}
 
 
-      <section id="main">
-        <div class="container">
-          <article id="main-col">
-          <h1 class="page-title">About Us</h1>
-          <p>We got bored, so we decided to build a site, just for you!</p>
-          <p>Well, mainly for us, but it's the thought that counts</p>
-          </article>
+/*boxes*/
+#boxes{
+  margin-top:20px;
+}
+#boxes .box{
+  float:left;
+  font-size:20px;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+#boxes .box img{
+  width:200px;
+  height:120px;
+}
+/*Sidebar for about.html*/
+<aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+/*main-col*/
+article#main-col{
+  float:left;
+  width:65%;
+}
+footer{
+  padding:20px
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#42663d;
+  text-align:center;
+}
 
-        </section>
+/*Meqia Que*/
+@media(max-width:  768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #showcase2 h1,
+  #boxes .box{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+  }
 
-          <aside id="sidebar">
-            <h3>What We Do</h3>
-            <p>We get creative when we are bored</p>
-        </div>
-      </aside>
-      <div>
-      </section>
+  header{
+    padding-bottom: 20px;
+  }
+  #showcase2 p {
+    float:right;
+  }
+}
+}
+  }
+}
 
-      <footer>
-        <p>Xerces Corporation, Copyright &copy; 2018</p>
-      </footer>
 
-  </body>
-</html>
+/*Services Music etc.*/
+#music h1{
+  float:left;
+}
+#music p {
+  font:20px;
+  text-align:center;
+}
+
+
+/*downloads etc*/
+#downloadss .downs{
+  text-align:center center;
+}
