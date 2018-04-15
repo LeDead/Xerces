@@ -141,3 +141,13 @@ footer{
 }
   }
 }
+
+
+/*Services Music etc.*/
+#music h1{
+  float:left;
+}
+#music p {
+  font:20px;
+  text-align:center;
+}
