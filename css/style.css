@@ -122,7 +122,7 @@ header a:hover{
   border-bottom: #998877 3px solid;
 }
 #a2 .a{
-  float:left;
+  float:center center;
   color:#ffffff;
   font-size:20px;
   text-align: center;
@@ -130,8 +130,8 @@ header a:hover{
   padding:10px;
 }
 #a2 .a img {
-  width:200px;
-  height:120px;
+  width:400px;
+  height:240px;
 }
 @media(max-width:768px){
   #a1 h1, #a1 p,#a2 .a{
