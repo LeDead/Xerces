@@ -116,6 +116,12 @@ header a:hover{
   text-align: center;
   color: #000000;
 }
+#a2{
+  min-height:400px;
+  background:url('../img/bridge.jpg') no-repeat;
+  background-position: center center;
+  text-align:center;
+}
 #a2 .a{
   float:left;
   font-size:20px;
