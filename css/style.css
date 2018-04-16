@@ -99,6 +99,25 @@ header a:hover{
   width:200px;
   height:120px;
 }
+#a1{
+  padding:15px;
+  background: 	#8a7671;
+  border-bottom: #998877 3px solid;
+}
+#a1 h1{
+  font-size: 55px;
+  color: #000000;
+  margin-top:20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#a1 p{
+  font-size: 30px;
+  font-family: fantasy;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
 footer{
   padding:20px
   margin-top:20px;
