@@ -117,13 +117,13 @@ header a:hover{
   color: #000000;
 }
 #a2{
-  min-height:400px;
-  background:url('../img/bridge.jpg') no-repeat;
-  background-position: center center;
-  text-align:center;
+  padding:15px;
+  background:#42663d;
+  border-bottom: #998877 3px solid;
 }
 #a2 .a{
   float:left;
+  color:#ffffff;
   font-size:20px;
   text-align: center;
   width:30%;
@@ -134,7 +134,7 @@ header a:hover{
   height:120px;
 }
 @media(max-width:768px){
-  #a1 h1, #a1 p{
+  #a1 h1, #a1 p,#a2 .a{
     float:none;
     text-align:center;
     width:100%;
