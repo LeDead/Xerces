@@ -118,11 +118,12 @@ header a:hover{
 }
 #a2{
   padding:15px;
+  margin-bottom:10px;
   background:#42663d;
   border-bottom: #998877 3px solid;
 }
 #a2 .a{
-  float:center center;
+  float:left;
   color:#ffffff;
   font-size:20px;
   text-align: center;
@@ -132,13 +133,6 @@ header a:hover{
 #a2 .a img {
   width:400px;
   height:240px;
-}
-@media(max-width:768px){
-  #a1 h1, #a1 p,#a2 .a{
-    float:none;
-    text-align:center;
-    width:100%;
-  }
 }
 footer{
   padding:20px
@@ -154,6 +148,9 @@ footer{
   header nav,
   header nav li,
   #showcase2 h1,
+  #a1 h1,
+   #a1 p,
+   #a2 .a,
   #boxes .box{
     float:none;
     text-align:center;
@@ -171,26 +168,3 @@ footer{
 }
   }
 }
-
-
-/*Services Music etc.*/
-#music h1{
-  float:left;
-}
-#music p {
-  font:20px;
-  text-align:center;
-}
-
-
-/*downloads etc*/
-#downloadss .downs{
-  text-align:center center;
-}
-@media(max-width:  768px){
-  #downloadss .downs img{
-    float:none;
-    text-align:center;
-    width:100%;
-  }
-  }
