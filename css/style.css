@@ -130,6 +130,8 @@ ul li:hover{
 footer{
   padding:20px
   margin-top:20px;
+  border-top: #998877 3px solid;
+  border-bottom: #998877 3px solid;
   color:#ffffff;
   background-color:#42663d;
   text-align:center;
