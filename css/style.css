@@ -75,9 +75,6 @@ ul li:hover{
   font-size:20px;
   text-align: center;
 }
-
-
-/*boxes*/
 #boxes{
   min-height:400px;
   background:url('../img/publicdomain2.jpeg') no-repeat 250px;
@@ -85,29 +82,19 @@ ul li:hover{
   text-align:center;
   color:#ffffff;
 }
-#boxes .box{
-  float:left;
-  font-size:20px;
-  text-align: center;
-  width:30%;
-  padding:10px;
-}
 #a1{
   padding:15px;
   background: 	#8a7671;
   border-bottom: #998877 3px solid;
+  text-align: center;
 }
 #a1 h1{
   font-size: 45px;
-  color: #000000;
   margin-top:20px;
   margin-bottom: 10px;
-  text-align: center;
 }
-#a1 p{
+#a1 h2,{
   font-size: 20px;
-  text-align: center;
-  color: #000000;
 }
 #a2{
   padding:15px;
@@ -136,15 +123,21 @@ footer{
   background-color:#42663d;
   text-align:center;
 }
+#audio{
+  padding: 15px;
+  text-align: center;
+  background-color: #42663d;
+}
 @media(max-width:  768px){
   header #br,
   header nav,
   header nav li,
   #show2 h1,
   #a1 h1,
+  #audio,
    #a1 p,
    #a2 .a,
-  #boxes .box{
+  #boxes{
     float:none;
     text-align:center;
     width:100%;
