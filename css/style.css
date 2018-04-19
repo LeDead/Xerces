@@ -4,8 +4,6 @@ body{
   margin:0;
   background-color:#ffffff;
 }
-
-/*Global */
   .container{
     width:80%;
     margin:auto;
@@ -15,7 +13,6 @@ body{
     margin:0;
     padding:0;
   }
-  /*Header */
   header{
     background:#42663d;
     color:#ffffff;
@@ -23,24 +20,21 @@ body{
     min-height:70px;
     border-bottom:#998877 3px solid;
   }
-
   header a{
     color:#ffffff;
     text-decoration:none;
     text-transform: uppercase;
     font-size: 16px;
-
   }
-
 header li{
   float:left;
   display:inline-block;
   padding:0 20px 0 20px;
 }
-header #branding{
+header #br{
   float:left;
 }
-header #branding h1{
+header #br h1{
   margin:0;
 }
 header nav{
@@ -51,35 +45,33 @@ ul li:hover{
   font-weight:bold;
   background: #9fa8ab;
 }
-
-/*Showcase*/
-#showcase{
+#show{
   min-height:400px;
   background:url('../img/showcase.jpg') no-repeat 250px;
   background-position: center center;
   text-align:center;
   color:#ffffff;
 }
-#showcase h1{
+#show h1{
   margin-top:100px;
   font-size:55px;
   margin-bottom:10px;
 }
-#showcase p{
+#show p{
   font-size:20px;
 }
-#showcase2{
+#show2{
   padding:15px;
   color:#ffffff;
   background:#42663d;
   border-top: #998877 3px solid;
   border-bottom: #998877 3px solid;
 }
-#showcase2 h1{
+#show2 h1{
   float:left;
 
 }
-#showcase2 p{
+#show2 p{
   font-size:20px;
   text-align: center;
 }
@@ -142,13 +134,11 @@ footer{
   background-color:#42663d;
   text-align:center;
 }
-
-/*Meqia Que*/
 @media(max-width:  768px){
-  header #branding,
+  header #br,
   header nav,
   header nav li,
-  #showcase2 h1,
+  #show2 h1,
   #a1 h1,
    #a1 p,
    #a2 .a,
