@@ -79,7 +79,11 @@ ul li:hover{
 
 /*boxes*/
 #boxes{
-  margin-top:20px;
+  min-height:400px;
+  background:url('../img/publicdomain2.jpeg') no-repeat 250px;
+  background-position: center center;
+  text-align:center;
+  color:#ffffff;
 }
 #boxes .box{
   float:left;
@@ -87,10 +91,6 @@ ul li:hover{
   text-align: center;
   width:30%;
   padding:10px;
-}
-#boxes .box img{
-  width:200px;
-  height:120px;
 }
 #a1{
   padding:15px;
@@ -130,8 +130,6 @@ ul li:hover{
 footer{
   padding:20px
   margin-top:20px;
-  border-top: #998877 3px solid;
-  border-bottom: #998877 3px solid;
   color:#ffffff;
   background-color:#42663d;
   text-align:center;
