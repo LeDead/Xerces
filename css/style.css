@@ -115,18 +115,17 @@ ul li:hover{
   height:120px;
 }
 footer{
-  padding:20px
-  margin-top:20px;
-  color:#ffffff;
   border-top: #998877 3px solid;
   border-bottom: #998877 3px solid;
   background-color:#42663d;
   text-align:center;
 }
+footer p{
+  color:#ffffff;
+}
 #audio{
   text-align: center;
   background-color: #42663d;
-
 }
 @media(max-width:  768px){
   header #br,
