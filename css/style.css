@@ -71,9 +71,14 @@ ul li:hover{
   float:left;
 
 }
-#show2 p{
-  font-size:20px;
+#show2 h2{
+  float:right;
   text-align: center;
+}
+#audio1{
+  float:center;
+  text-align:center;
+  font-size: 30px;
 }
 #boxes{
   min-height:400px;
