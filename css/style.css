@@ -82,6 +82,7 @@ ul li:hover{
   text-align:center;
   color:#ffffff;
 }
+/*About.html*/
 #a1{
   padding:15px;
   background: 	#8a7671;
@@ -98,7 +99,6 @@ ul li:hover{
 }
 #a2{
   padding:15px;
-  margin-bottom:10px;
   background:#42663d;
   border-bottom: #998877 3px solid;
 }
@@ -114,6 +114,14 @@ ul li:hover{
   width:200px;
   height:120px;
 }
+#a3{
+  min-height:400px;
+  background:url('../img/publicdomain3.jpg') no-repeat 250px;
+  background-position: center center;
+  text-align:center;
+  color:#ffffff;
+}
+
 footer{
   border-top: #998877 3px solid;
   border-bottom: #998877 3px solid;
@@ -136,7 +144,8 @@ footer p{
   #audio,
    #a1 p,
    #a2 .a,
-  #boxes{
+  #boxes,
+  #a3{
     float:none;
     text-align:center;
     width:100%;
